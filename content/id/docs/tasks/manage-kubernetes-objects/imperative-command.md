@@ -65,7 +65,7 @@ Pada Kubernetes versi 1.5, tidak semua perintah yang berdasarkan kata kerja bera
 Perangkat `kubectl` juga mendukung beberapa cara lain untuk memperbarui objek *live* secara langsung, meskipun cara-cara berikut membutuhkan pemahaman yang lebih tentang skema objek Kubernetes.
 
 - `edit`: Secara langsung mengedit konfigurasi mentah dari sebuah objek *live* dengan membuka konfigurasinya di sebuah editor.
-- `patch`: Secara langsung memodifikasi *field-field* spesifik dari sebuah objek *live* dengan menggunakan *patch string*. Untuk detil lebih lanjut mengenai `patch string`, lihat bagian tentang *patch* pada [Konvensi API](https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#patch-operations).
+- `patch`: Secara langsung memodifikasi *field-field* spesifik dari sebuah objek *live* dengan menggunakan *patch string*. Untuk detail lebih lanjut mengenai `patch string`, lihat bagian tentang *patch* pada [Konvensi API](https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#patch-operations).
 
 ## Cara menghapus objek
 
@@ -120,7 +120,7 @@ kubectl create --edit -f /tmp/srv.yaml
 ```
 
 1. Perintah `kubectl create service` membuat konfigurasi untuk objek Service dan menyimpannya di `/tmp/srv.yaml`.
-1. Perintah `kubectl create --edit` membuka file konfigurasi untuk diedit sebelum objek dibuat.
+1. Perintah `kubectl create --edit` membuka berkas konfigurasi untuk diedit sebelum objek dibuat.
 
 
 
